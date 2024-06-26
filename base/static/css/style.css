@@ -1,0 +1,278 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-style{
+    background-color: #323031;
+    height: 85px;
+    
+    
+}
+ 
+.nav-link{
+    color: white;
+}
+
+
+
+.nav-link:hover{
+    color: rgb(218, 216, 216);
+}
+
+
+.Artboard-img{
+    width: 66px;
+    height: 58px;
+    margin-top: 6px;
+}
+
+.Logo{
+    display: flex;
+    margin-top: 15px;
+}
+
+.Auto-p{
+    color: white;
+    width: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.EN-bt{
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+
+.EN-bt:hover{
+    background-color: rgb(218, 216, 216);
+}
+
+
+.carousel-controll{
+    padding-top: 0px;
+}
+
+.About-main{
+    background-color: #323031;
+}
+
+
+.About-tag{
+    color: white;
+}
+
+.p-text{
+    color: white;
+}
+
+
+.About-text{
+    margin: 90px;
+}
+
+
+.Rectangle{
+    background-color: #084C61;
+    margin-top: 82px;
+    margin-inline-start: auto;
+    width: 54%;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: -14px;
+
+    
+
+}
+
+.Rectangle-img{
+    width: 280px;
+    height: 435px;
+    margin-top: 42px;
+    margin-left: -81px;
+}
+
+
+.Credits{
+    background-color: #C91212;
+    margin-top: 80px;
+    margin-inline-start: auto;
+    width: 77%;
+    height: 98%;
+    border-radius: 10px;
+    margin-left: -15px;
+
+}
+
+.Credits-img{
+    width: 285px;
+    height: 420px;
+    margin-top: 38px;
+    margin-left: 132px;
+}
+
+.Credits-main{
+    background-color: #323031;
+    width: 100% !important;
+    height: 572px;
+}
+
+.cards-main{
+    text-align: center;
+    margin-top: 85px;
+    padding: 120px;
+    margin-left: 9px;
+    background-image: url(../img/Rectangle\ 44.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    max-width: 99% !important;
+    
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 11px;
+}
+
+.card-img-top{
+    width: 239px;
+    height: 275px;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.card-title{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Portfolio-h3{
+    text-align: justify;
+}
+
+.see-btn{
+    background-color: #177E89;
+    color: white;
+    border: none;
+    outline: none !important;
+    padding: 2px;
+    width: 125px;
+    border-radius: 6px;
+}
+
+.btn-div{
+    text-align: center;
+    margin: 61px;
+    padding-right: 75px;
+}
+
+.box{
+    width: 380px;
+    background-color: #177E89;
+    padding: 19px;
+    margin: 20px;
+    padding-top: 37px;
+    padding-left: 24px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.Services-h3{
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.main-box{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0;
+}
+
+
+.background-image{
+   background-image: url(../img/Rectangle\ 33.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   width: 100%;
+   margin-top: 2px;
+   
+}
+
+
+.contact-name-input {
+    border: none;
+    outline: none;
+    background-color: rgb(241,241,241);
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.contact-name-input::placeholder {
+    color: #b7b7b7;
+}
+
+.contact-name-textarea {
+    border: none;
+    outline: none;
+    background-color: rgb(241,241,241);
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.contact-name-textarea::placeholder {
+    color: #b7b7b7;
+}
+
+.contact-btn {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #177E89;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 18px;
+}
+
+
+.contact-container{
+    padding-top: 46px;
+}
+
+
+
+.honda-img{
+   background-image: url(../img/Honda.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   width: 100%;
+   margin-top: 2px;
+}
+
+.bg-primary {
+    background-color: #323031 !important;
+}
+
+.icons-ftr{
+    width: 27px;
+    padding: 1px
+}
+
+.footer-logo{
+    width: 150px; 
+    height: 150px;
+}
