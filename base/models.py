@@ -12,6 +12,14 @@ class Service(models.Model):
     name = models.CharField(max_length=50)
     information = models.CharField(max_length=550)
 
+class AzService(models.Model):
+    name = models.CharField(max_length=50)
+    information = models.CharField(max_length=550)
+
+class RuService(models.Model):
+    name = models.CharField(max_length=50)
+    information = models.CharField(max_length=550)
+
     def __str__(self):
         return self.name
 

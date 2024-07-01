@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Car, Service, Slide
+from .models import Car, Service, Slide, AzService, RuService
 from .forms import *
 from django.shortcuts import redirect
 
@@ -28,7 +28,7 @@ def AZhome(request):
             return redirect('base:Cars')  
     else:      
         cars = Car.objects.order_by('-id')
-        services = Service.objects.order_by('-id')
+        services = AzService.objects.order_by('-id')
         slides = Slide.objects.order_by('-id')[0:]
         print(slides)
         first_slide = Slide.objects.all()[0]
@@ -43,7 +43,7 @@ def RUhome(request):
             return redirect('base:Cars')
     else: 
         cars = Car.objects.order_by('-id')
-        services = Service.objects.order_by('-id')
+        services = RuService.objects.order_by('-id')
         slides = Slide.objects.order_by('-id')[0:]
         print(slides)
         first_slide = Slide.objects.all()[0]
