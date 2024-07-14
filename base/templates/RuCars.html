@@ -26,7 +26,7 @@
                   <a class="nav-link About-tag " href="#about">O<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Портфолио</a>
+                  <a class="nav-link" href="#cars">Автомобили</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#services">Услуги</a>
@@ -106,10 +106,10 @@
   
   
    <div>
-    <div class="container-fluid " id="portfolio">
+    <div class="container-fluid " id="cars">
       <div class="row ">
         <div class="col-md-12 cards-main "  style="background-image: url('https://muradaghazade.github.io/Finexo-front/img/Rectangle%2044.png') !important;">
-          <h3 class="Portfolio-h3">Портфолио</h3>
+          <h3 class="Portfolio-h3">Автомобили</h3>
           <div class="row">
             {% for car in cars %}
             <div class="col-md-4 mt-5">
@@ -188,7 +188,7 @@
       </div>
       <div class="col-md-4">
         <div class="container About-text">
-          <h3 class="About-tag">КРЕДИТЫ</h3>
+          <h3 class="About-tag">Кредиты</h3>
           <p class="p-text">Благодаря автокредиту автомобиль вашей мечты теперь доступен! Мы предлагаем клиентам кредит и платить позже!</p>
           <p class="p-text"> Вы можете получить желаемый автомобиль, заплатив 20% от общей суммы!</p>
         
@@ -203,7 +203,7 @@
   
   
   <div class="contact-container container text-center mt-5" id="contact">
-    <h1 id="title4">СВЯЗАТЬСЯ С НАМИ</h1>
+    <h1 id="title4">Связаться с нами</h1>
     <form action="" method="POST">
         {% csrf_token %}
         {{form.name}}
@@ -252,15 +252,21 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase mb-4">Раздел</h5>
   
-          <ul class="list-unstyled">
+          <ul class="list-unstyled">  
             <li class="mb-2">
               <a href="#about" class="text-white"><i class="fas fa-paw pe-3"></i>O</a>
             </li>
             <li class="mb-2">
-              <a href="#portfolio" class="text-white"><i class="fas fa-paw pe-3"></i>Портфолио</a>
+              <a href="#cars" class="text-white"><i class="fas fa-paw pe-3"></i>Автомобили</a>
             </li>
             <li class="mb-2">
               <a href="#services" class="text-white"><i class="fas fa-paw pe-3"></i>Услуги</a>
+            </li>
+            <li class="mb-2">
+              <a href="#credits" class="text-white"><i class="fas fa-paw pe-3"></i>Кредиты</a>
+            </li>
+            <li class="mb-2">
+              <a href="#contact" class="text-white"><i class="fas fa-paw pe-3"></i>Связаться с нами</a>
             </li>
            
           </ul>

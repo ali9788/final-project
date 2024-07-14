@@ -26,7 +26,7 @@
                   <a class="nav-link About-tag " href="#about">Haqqında<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link" href="#cars">Avtomobillər</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#services">Servislər</a>
@@ -107,10 +107,10 @@
   
   
    <div>
-    <div class="container-fluid " id="portfolio">
+    <div class="container-fluid " id="cars">
       <div class="row ">
         <div class="col-md-12 cards-main "  style="background-image: url('https://muradaghazade.github.io/Finexo-front/img/Rectangle%2044.png') !important;">
-          <h3 class="Portfolio-h3">Portfolio</h3>
+          <h3 class="Portfolio-h3">Avtomobillər</h3>
           <div class="row">
             {% for car in cars %}
             <div class="col-md-4 mt-5">
@@ -189,7 +189,7 @@
       </div>
       <div class="col-md-4">
         <div class="container About-text">
-          <h3 class="About-tag">KREDIT</h3>
+          <h3 class="About-tag">Kredit</h3>
           <p class="p-text">Avtomobil Krediti ilə arzuladığınız avtomobil artıq əlçatandır! Biz müştərilərə kredit və sonradan ödəniş təklif edirik!         </p>
           <p class="p-text"> Arzuladığınız avtomobili ümumi məbləğin 20%-ni ödəməklə əldə edə bilərsiniz!</p>
         
@@ -204,7 +204,7 @@
   
   
   <div class="contact-container container text-center mt-5" id="contact">
-    <h1 id="title4">BİZİMLƏ ƏLAQƏ SAXLAYIN</h1>
+    <h1 id="title4">Bizimlə əlaqə saxlayın</h1>
     <form action="" method="POST">
         {% csrf_token %}
         {{form.name}}
@@ -259,10 +259,16 @@
               <a href="#about" class="text-white"><i class="fas fa-paw pe-3"></i>Haqqında</a>
             </li>
             <li class="mb-2">
-              <a href="#portfolio" class="text-white"><i class="fas fa-paw pe-3"></i>Portfolio</a>
+              <a href="#cars" class="text-white"><i class="fas fa-paw pe-3"></i>Avtomobillər</a>
             </li>
             <li class="mb-2">
               <a href="#services" class="text-white"><i class="fas fa-paw pe-3"></i>Servislər</a>
+            </li>
+            <li class="mb-2">
+              <a href="#credits" class="text-white"><i class="fas fa-paw pe-3"></i>Kredit</a>
+            </li>
+            <li class="mb-2">
+              <a href="#contact" class="text-white"><i class="fas fa-paw pe-3"></i>Bizimlə əlaqə saxlayın</a>
             </li>
            
           </ul>
